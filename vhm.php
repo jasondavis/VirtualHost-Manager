@@ -219,7 +219,7 @@ function hosts_configuration( &$hConf, $hTitle, $name ) {
 }
 
 /**
- * Escreve no arquivo com permissão root
+ * Write the file with root permission
  */
 function sudo_write_file( $path, $text) {
 
@@ -228,7 +228,7 @@ function sudo_write_file( $path, $text) {
 }
 
 /**
- * Apaga arquivo com permissão root
+ * Deletes file with root permission
  */
 function sudo_remove_file( $path ) {
     
